@@ -1,0 +1,47 @@
+.loginBd {
+  background: var(--cor-l1);
+  display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  place-items: center;
+}
+
+.login {
+  background: var(--cor-l0);
+  height: 520px;
+  width: 300px;
+  border-radius: 30px;
+  place-items: center;
+  text-align: center;
+}
+
+.loginEmail {
+  border-radius: 10px;
+  border: 3px solid var(--cor-l2);
+  width: 240px;
+  height: 34px;
+}
+
+.loginEscopo {
+  padding-top: 40px;
+}
+
+.loginTexto {
+  text-align: left;
+  margin-left: 30px;
+  display: block;
+}
+
+.loginButton {
+  align-items: center;
+}
+
+button:hover {
+  color: var(--cor-l1);
+  background: var(--cor-1);
+  border: 0.2px solid var(--cor-l1);
+}
+
+.buttonText {
+  color: var(--cor-l1);
+  text-decoration: none;
+}
