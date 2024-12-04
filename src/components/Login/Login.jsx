@@ -28,9 +28,9 @@ const Login = () => {
   return (
     <div className={styles.loginBd}>
       <header>
-        <div className={styles.logo}>
+        <div className={styles.logotipo1}>
           <img
-            className={styles.logoImg}
+            className="logotipo1"
             src="img/Logo.png"
             alt="Logo da Pizzaria"
           />

@@ -45,3 +45,12 @@ button:hover {
   color: var(--cor-l1);
   text-decoration: none;
 }
+
+.logotipo1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
