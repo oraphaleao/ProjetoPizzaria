@@ -17,3 +17,25 @@
 .navbar button:hover {
   background-color: #ffa500;
 }
+
+.navbar .left-button {
+  position: absolute;
+  right: 30px;
+  margin-top: 7px;
+}
+
+.navbar .left-button a {
+  background-color: rgb(218, 2, 2);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navbar .left-button a:hover {
+  transition: all ease-in-out .2s;
+  background-color: rgb(100, 0, 0);
+  color: white;
+}

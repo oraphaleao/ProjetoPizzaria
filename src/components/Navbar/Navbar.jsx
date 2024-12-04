@@ -12,6 +12,9 @@ function Navbar() {
       <button>Relatório</button>
       <button>Usuários</button>
       <button>Configuração</button>
+      <div className="left-button">
+        <a href="/" type="button">Sair</a>
+      </div>
     </nav>
   );
 }
